@@ -78,7 +78,7 @@ export default class UTCSelector extends Component {
 							onTouchStart={this.plusMultiple}
 							onTouchEnd={this.stopInterval}
 						>+</button>
-						<input type="number" id="utc_scale" value={this.state.value} readOnly />
+						<input type="number" className="utc_scale" value={this.state.value} readOnly />
 						<button
 							onClick={this.minusOnce}
 							onMouseDown={this.minusMultiple}
