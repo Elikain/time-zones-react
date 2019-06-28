@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/time-zones-react.git/static/css/main.31502136.chunk.css",
-    "main.js": "/time-zones-react.git/static/js/main.41a61f09.chunk.js",
-    "main.js.map": "/time-zones-react.git/static/js/main.41a61f09.chunk.js.map",
-    "runtime~main.js": "/time-zones-react.git/static/js/runtime~main.5f1b921a.js",
-    "runtime~main.js.map": "/time-zones-react.git/static/js/runtime~main.5f1b921a.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/time-zones-react.git/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/time-zones-react.git/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/time-zones-react.git/index.html",
-    "precache-manifest.a4f3560f3961ee3a095449d37ea72f51.js": "/time-zones-react.git/precache-manifest.a4f3560f3961ee3a095449d37ea72f51.js",
-    "service-worker.js": "/time-zones-react.git/service-worker.js",
-    "static/css/main.31502136.chunk.css.map": "/time-zones-react.git/static/css/main.31502136.chunk.css.map"
+    "main.css": "/time-zones-react/static/css/main.31502136.chunk.css",
+    "main.js": "/time-zones-react/static/js/main.41a61f09.chunk.js",
+    "main.js.map": "/time-zones-react/static/js/main.41a61f09.chunk.js.map",
+    "runtime~main.js": "/time-zones-react/static/js/runtime~main.24999107.js",
+    "runtime~main.js.map": "/time-zones-react/static/js/runtime~main.24999107.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/time-zones-react/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/time-zones-react/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/time-zones-react/index.html",
+    "precache-manifest.67269dd4fce1ab1704fbc19d77851f9a.js": "/time-zones-react/precache-manifest.67269dd4fce1ab1704fbc19d77851f9a.js",
+    "service-worker.js": "/time-zones-react/service-worker.js",
+    "static/css/main.31502136.chunk.css.map": "/time-zones-react/static/css/main.31502136.chunk.css.map"
   }
 }
