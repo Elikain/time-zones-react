@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "time-zones-react",
+  "name": "Time-Zones-Timer (React version)",
   "icons": [
     {
       "src": "favicon.ico",
