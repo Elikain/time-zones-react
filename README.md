@@ -1,5 +1,7 @@
 # time-zones-react
 
+[Demo](https://elikain.github.io/time-zones-react/)
+
 Возможности:
 1. Просмотр локального времени(слева)
 2. Просмотр времени различных поясов по UTC стандарту(справа)
