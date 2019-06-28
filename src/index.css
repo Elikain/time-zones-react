@@ -151,13 +151,10 @@ article:nth-of-type(2) div:last-child {
 	flex: 1;
 }
 
-h3, .utc_scale {
-	text-align: center;
-	color: white;
-}
-
 h3 {
 	margin: 0;
+	text-align: center;
+	color: white;
 }
 
 .utc_scale {
@@ -166,6 +163,11 @@ h3 {
 	width: 100%;
 	background-color: #1e1f20;
 	font-weight: bold;
+}
+
+input.utc_scale {
+	text-align: center;
+	color: white;
 }
 
 .utc_scale::-webkit-inner-spin-button {
