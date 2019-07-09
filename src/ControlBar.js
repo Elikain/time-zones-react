@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from './Buttons';
+import TopButtons from './TopButtons';
 import UTCSelector from './UTCSelector';
 
 export default function ControlBar(props) {
@@ -7,7 +7,7 @@ export default function ControlBar(props) {
 	
 	return (
 		<article>
-			<Buttons utcChange={utcChange} />
+			<TopButtons utcChange={utcChange} />
 			<UTCSelector utcChange={utcChange} />
 		</article>
 	);

@@ -66,9 +66,9 @@ export default class UTCSelector extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="buttons_bottom">
 				<h3>UTC</h3>
-				<div id="utc_nav">
+				<div className="utc_nav">
 					<div>
 						<button
 							onClick={this.plusOnce}
