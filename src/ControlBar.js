@@ -3,12 +3,12 @@ import TopButtons from './TopButtons';
 import UTCSelector from './UTCSelector';
 
 export default function ControlBar(props) {
-	const { utcChange } = props;
+	const { utcChange, textShadow, handleTextShadow } = props;
 	
 	return (
 		<article>
-			<TopButtons utcChange={utcChange} />
-			<UTCSelector utcChange={utcChange} />
+			<TopButtons utcChange={utcChange} textShadow={textShadow} handleTextShadow={handleTextShadow} />
+			<UTCSelector utcChange={utcChange} textShadow={textShadow} />
 		</article>
 	);
 }

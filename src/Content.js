@@ -32,12 +32,13 @@ export default class Content extends Component {
 	render() {
 		const difference = this.state.offset + this.state.utc * this.state.ms;
 		const { date, utc, dayName, monthName } = this.state;
+		const { textShadow, handleTextShadow } = this.props;
 
 		return (
 			<section>
-				<TimerLeft date={date} dayName={dayName} monthName={monthName} />
-				<ControlBar utcChange={this.utcChange} />
-				<TimerRight date={date} utc={utc} difference={difference} dayName={dayName} monthName={monthName} />
+				<TimerLeft date={date} dayName={dayName} monthName={monthName} textShadow={textShadow} />
+				<ControlBar utcChange={this.utcChange} textShadow={textShadow} handleTextShadow={handleTextShadow} />
+				<TimerRight date={date} utc={utc} difference={difference} dayName={dayName} monthName={monthName} textShadow={textShadow} />
 			</section>
 		);
 	}

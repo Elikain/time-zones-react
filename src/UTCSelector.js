@@ -65,9 +65,11 @@ export default class UTCSelector extends Component {
 	}
 
 	render() {
+		const { textShadow } = this.props;
+
 		return (
 			<div className="buttons_bottom">
-				<h3>UTC</h3>
+				<h3 style={textShadow}>UTC</h3>
 				<div className="utc_nav">
 					<div>
 						<button
@@ -78,7 +80,7 @@ export default class UTCSelector extends Component {
 							onTouchStart={this.plusMultiple}
 							onTouchEnd={this.stopInterval}
 						>+</button>
-						<input type="number" className="utc_scale" value={this.state.value} readOnly />
+						<input type="number" className="utc_scale" value={this.state.value} style={textShadow} readOnly />
 						<button
 							onClick={this.minusOnce}
 							onMouseDown={this.minusMultiple}
