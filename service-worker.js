@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/time-zones-react/precache-manifest.d66186a1b3d6cdc065421bd7565378a9.js"
+  "/time-zones-react/precache-manifest.e0efb8c7808601f372a0df0c2ae5dd9e.js"
 );
 
 self.addEventListener('message', (event) => {
